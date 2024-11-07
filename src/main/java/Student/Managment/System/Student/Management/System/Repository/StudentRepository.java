@@ -6,4 +6,6 @@ public interface StudentRepository extends JpaRepository<Student,Long>{
     //crud
 
     //crud complete
+
+    //crud
 }
