@@ -40,6 +40,8 @@ public class StudentController {
     //Get by Id Rest Api
     @GetMapping("{id}")
 
+//new line example
+
     //localHost:8080/api/student/1
     public ResponseEntity<Student> getStudentById(@PathVariable("id") long studentId){
         return new ResponseEntity<Student>(studentService.getStudentById(studentId),HttpStatus.OK);
