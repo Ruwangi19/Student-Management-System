@@ -25,7 +25,7 @@ public class Student {
     @Column ( name = "yearOfEnrollment" ,nullable = false)
     private int yearOfEnrollment;
 
-    // Add Getters and setters
+    // Add Getters and setters in the student.java
 
     public long getId(){
         return id;
